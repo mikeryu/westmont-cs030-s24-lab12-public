@@ -1,11 +1,9 @@
 /**
- * Westmont College Spring 2024
- * CS 030 Lab 12, Task 1
+ * Westmont College Spring 2025
+ * CS 030 Lab 12, Task 1 and 2
  *
  * @author Assistant Professor Mike Ryu mryu@westmont.edu
- * @author TODO: add the 1st group member's info.
- * @author TODO: add the 2nd group member's info.
- * @author TODO: add the 3rd group member's info (optional).
+ * @author TODO: add your name and email here.
  */
 
 import java.util.Iterator;
@@ -86,7 +84,7 @@ public class BasicHashSet implements Iterable<Object> {
 
   @Override
   public Iterator<Object> iterator() {
-    return new BasicHashTableIterator();
+    return null; // TODO: Add your implementation here to return the BasicHashTableIterator instance.
   }
 
   @Override

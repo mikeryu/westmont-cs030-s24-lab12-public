@@ -1,5 +1,5 @@
 /**
- * Westmont College Spring 2024
+ * Westmont College Spring 2025
  * CS 030 Lab 12, Task 1
  *
  * @author Assistant Professor Mike Ryu mryu@westmont.edu
@@ -90,26 +90,6 @@ class BasicHashSetTest {
     for (int num : nums) {
       assertTrue(set3.contains(num));
     }
-  }
-
-  @Test
-  void iterator_set1() {
-    Iterator<Object> iter = set1.iterator();
-    for (int i = 0; i < 10; i++) {
-      assertEquals(i, iter.next());
-    }
-
-    assertThrows(NoSuchElementException.class, iter::next);
-  }
-
-  @Test
-  void iterator_set2() {
-    Iterator<Object> iter = set2.iterator();
-    for (int i = 0; i < 1000; i++) {
-      assertEquals(i, iter.next());
-    }
-
-    assertThrows(NoSuchElementException.class, iter::next);
   }
 
   @Test
